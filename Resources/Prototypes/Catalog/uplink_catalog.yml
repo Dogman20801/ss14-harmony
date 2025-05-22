@@ -52,6 +52,17 @@
   categories:
   - UplinkWeaponry
 
+# Budget stealth, slower and louder than Cobra.
+- type: listing
+  id: UplinkPistolHalys
+  name: uplink-pistol-halys-name
+  description: uplink-pistol-halys-desc
+  productEntity: WeaponPistolHalys
+  cost:
+   Telecrystal: 2
+  categories:
+  - UplinkWeaponry
+
 - type: listing
   id: UplinkEsword
   name: uplink-esword-name

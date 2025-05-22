@@ -186,6 +186,50 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
+  name: halys
+  parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
+  id: WeaponPistolHalys
+  description: An extremely cheap semi-automatic pistol employed by the syndicate, often seen as the syndicate's fallback weapon whenever other choices are too expensive. Loved by agents who go into long monologues before killing someone. Feeds from .25 caseless magazines.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/halys.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: ChamberMagazineAmmoProvider
+  - type: Gun
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+    availableModes:
+    - SemiAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolCaselessRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazinePistolCaselessRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeCaselessRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeCaselessRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+
+- type: entity
   name: mk 58
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolMk58
