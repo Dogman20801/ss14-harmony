@@ -201,6 +201,8 @@
   - type: ChamberMagazineAmmoProvider
   - type: Gun
     fireRate: 2
+    minAngle: 30
+    maxAngle: 40
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
     availableModes:
