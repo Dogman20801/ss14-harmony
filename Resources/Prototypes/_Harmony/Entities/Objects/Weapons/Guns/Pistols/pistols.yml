@@ -2,7 +2,7 @@
   name: halys
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolHalys
-  description: An extremely cheap semi-automatic pistol employed by the syndicate, often seen as the syndicate's fallback weapon whenever other choices are too expensive. Loved by agents who go into long monologues before killing someone. Feeds from .25 caseless magazines.
+  description: An extremely cheap semi-automatic pistol employed by the syndicate, often seen as the syndicate's fallback weapon whenever other choices are too expensive. Loved by agents who go into long monologues before killing someone. Feeds from .25 pistol magazines.
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Pistols/halys.rsi
