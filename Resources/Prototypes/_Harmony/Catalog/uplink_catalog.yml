@@ -1,4 +1,20 @@
 # Guns
+
+# Budget gang duffle, used for arming 4 people with guns at a cheap price.
+- type: listing
+  id: UplinkHenchmanKit
+  name: uplink-pistol-halys-bundle-name
+  description: uplink-pistol-halys-bundle-desc
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Pistols/halys.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledHenchman
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 3
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkWeaponry
+
 # Explosives
 - type: listing
   id: UplinkPizzaBomb

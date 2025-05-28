@@ -1,0 +1,18 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledHenchman
+  name: Henchman bundle
+  description: "Quadruple Threat: Four Halys, bundled with a few mags and the greatest disguises you've seen."
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolHalys
+      amount: 4
+    - id: MagazinePistolCaselessRifle
+      amount: 4
+    - id: ClothingHeadHatRichard
+    - id: ClothingEyesGlassesOutlawGlasses
+      amount: 3
+    - id: ClothingMaskBandRed
+      amount: 3
+
