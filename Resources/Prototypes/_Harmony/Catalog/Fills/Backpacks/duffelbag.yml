@@ -16,8 +16,6 @@
     - id: ClothingMaskBandRed
       amount: 3
 
-
-
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledHushpup
