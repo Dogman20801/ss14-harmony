@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "icon, green-unlit, yellow-unlit, and red-unlit made by Dogman30602, originally for Harmony port of SS14. Rest of textures taken from tgstation at commit https://github.com/tgstation/tgstation/commit/94f27c7b25bbde39c1412e24fb32bf6470fcc394",
+  "copyright": "Textures made by Dogman2081, originally for Harmony. PR of origin is https://github.com/ss14-harmony/ss14-harmony/pull/779",
   "size": {
     "x": 32,
     "y": 32
